@@ -8,21 +8,6 @@ def load_css_file(file_path="styles/default.css"):
 
 load_css_file()
 
-# Display Makro Supermarket Image
-try:
-    # Try to load the image
-    image = Image.open('Makro_Supermarket_in_Uzbekistan.jpg')
-    st.image(image, caption='Makro Supermarket in Uzbekistan - Our Inspiration 🌟', use_column_width=True)
-except:
-    # If image fails to load, show a placeholder
-    st.markdown("""
-    <div style="background: #e67e22; color: white; padding: 60px; text-align: center; border-radius: 15px;">
-        <h1>🏪 Makro Supermarket</h1>
-        <p style="font-size: 20px;">Salamy-Teeki - Central Asian Groceries</p>
-        <p>📍 Image: Makro Supermarket in Uzbekistan</p>
-    </div>
-    """, unsafe_allow_html=True)
-
 # Original upload functionality
 st.title("📁 Upload Sales Data")
 
