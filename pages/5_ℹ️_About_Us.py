@@ -41,7 +41,7 @@ def load_about_page():
         st.write("•IBT Student")
     with col4:
         st.image("photo_2025-11-24 11.53.52 PM.jpeg", caption="Murodullaev Abubakr ")
-        st.write("•ISE Student")
+        st.write("IBT Student")
     with col5:
         st.image("hoto_2025-11-25 12.12.26 AM.jpeg", caption="Podolak Florian")
         st.write("•Exchange Student")
