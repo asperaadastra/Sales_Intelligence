@@ -3,9 +3,50 @@
 /* ----------------------------- */
 
 body, .stApp {
-    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 50%, #f0fff0 100%) !important;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.95)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><defs><pattern id="uzbek-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="%23f8fdff"/><path d="M20,0 L40,20 L20,40 L0,20 Z" fill="%230099b5" fill-opacity="0.1"/><circle cx="20" cy="20" r="8" fill="%231e8e3e" fill-opacity="0.1"/><path d="M10,10 L30,30 M30,10 L10,30" stroke="%23ce1126" stroke-width="1" stroke-opacity="0.1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23uzbek-pattern)"/></svg>') !important;
     font-family: "Inter", "Arial", sans-serif !important;
     color: #2c3e50 !important;
+}
+
+/* ----------------------------- */
+/* PAGE-SPECIFIC BACKGROUND PATTERNS */
+/* ----------------------------- */
+
+/* Page 1: Upload - Ikat Pattern */
+.upload-page-pattern {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.92)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><pattern id="ikat" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="%23f0f8ff"/><path d="M0,0 L60,60 M60,0 L0,60" stroke="%230099b5" stroke-width="2" stroke-opacity="0.08"/><circle cx="30" cy="30" r="15" fill="%231e8e3e" fill-opacity="0.05"/><path d="M15,15 L45,45 M45,15 L15,45" stroke="%23ce1126" stroke-width="1" stroke-opacity="0.06"/><rect x="20" y="20" width="20" height="20" fill="%230099b5" fill-opacity="0.03"/></pattern></defs><rect width="100%" height="100%" fill="url(%23ikat)"/></svg>') !important;
+}
+
+/* Page 2: Column Mapping - Suzani Pattern */
+.mapping-page-pattern {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.92)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"><defs><pattern id="suzani" x="0" y="0" width="75" height="75" patternUnits="userSpaceOnUse"><rect width="75" height="75" fill="%23f8fdff"/><path d="M0,37.5 L75,37.5 M37.5,0 L37.5,75" stroke="%231e8e3e" stroke-width="1" stroke-opacity="0.07"/><circle cx="37.5" cy="37.5" r="20" fill="none" stroke="%230099b5" stroke-width="2" stroke-opacity="0.06"/><path d="M15,15 Q37.5,5 60,15 T75,37.5 T60,60 T37.5,75 T15,60 T0,37.5 T15,15" fill="%23ce1126" fill-opacity="0.03"/><polygon points="18.75,18.75 56.25,18.75 56.25,56.25 18.75,56.25" fill="none" stroke="%230099b5" stroke-width="1" stroke-opacity="0.05"/></pattern></defs><rect width="100%" height="100%" fill="url(%23suzani)"/></svg>') !important;
+}
+
+/* Page 3: Dashboard - Geometric Pattern */
+.dashboard-page-pattern {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.92)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><defs><pattern id="geometric" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="%23f0fff0"/><path d="M0,0 L50,50 M50,0 L0,50" stroke="%231e8e3e" stroke-width="1" stroke-opacity="0.06"/><circle cx="25" cy="25" r="10" fill="%230099b5" fill-opacity="0.04"/><rect x="10" y="10" width="30" height="30" fill="none" stroke="%23ce1126" stroke-width="1" stroke-opacity="0.05"/><polygon points="12.5,12.5 37.5,12.5 37.5,37.5 12.5,37.5" fill="%231e8e3e" fill-opacity="0.02"/></pattern></defs><rect width="100%" height="100%" fill="url(%23geometric)"/></svg>') !important;
+}
+
+/* Page 4: Prediction - Traditional Motif */
+.prediction-page-pattern {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.92)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><defs><pattern id="motif" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="%23f8fdff"/><path d="M30,0 L60,30 L30,60 L0,30 Z" fill="none" stroke="%230099b5" stroke-width="1.5" stroke-opacity="0.06"/><circle cx="30" cy="30" r="12" fill="none" stroke="%23ce1126" stroke-width="1" stroke-opacity="0.05"/><path d="M15,15 L45,45 M45,15 L15,45" stroke="%231e8e3e" stroke-width="1" stroke-opacity="0.04"/><polygon points="20,20 40,20 40,40 20,40" fill="%230099b5" fill-opacity="0.02"/></pattern></defs><rect width="100%" height="100%" fill="url(%23motif)"/></svg>') !important;
+}
+
+/* Page 5: About Us - Simple Elegant Pattern */
+.about-page-pattern {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.96)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"><defs><pattern id="elegant" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="%23ffffff"/><circle cx="20" cy="20" r="8" fill="%230099b5" fill-opacity="0.03"/><path d="M10,10 L30,30 M30,10 L10,30" stroke="%231e8e3e" stroke-width="0.5" stroke-opacity="0.04"/><rect x="15" y="15" width="10" height="10" fill="%23ce1126" fill-opacity="0.02"/></pattern></defs><rect width="100%" height="100%" fill="url(%23elegant)"/></svg>') !important;
 }
 
 /* ----------------------------- */
@@ -27,6 +68,7 @@ h1 {
     margin-bottom: 25px !important;
     text-align: center !important;
     font-size: 2.5em !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 h2 {
@@ -35,6 +77,9 @@ h2 {
     padding-left: 15px !important;
     border-left: 5px solid #1e8e3e !important;
     margin: 20px 0 !important;
+    background: linear-gradient(90deg, rgba(0, 153, 181, 0.1), transparent) !important;
+    padding: 10px 15px !important;
+    border-radius: 0 8px 8px 0 !important;
 }
 
 h3 {
@@ -42,6 +87,8 @@ h3 {
     color: #1e8e3e !important;
     border-bottom: 2px solid #ce1126 !important;
     padding-bottom: 8px !important;
+    background: linear-gradient(90deg, rgba(30, 142, 62, 0.05), transparent) !important;
+    padding: 8px 12px !important;
 }
 
 /* ----------------------------- */
@@ -50,11 +97,14 @@ h3 {
 
 .stMarkdown, .stDataFrame, .css-1d391kg, .stPlotlyChart, .stAltairChart, .stMetric,
 div[data-testid="stHorizontalBlock"] > div {
-    background: rgba(255, 255, 255, 0.95) !important;
+    background: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(8px) !important;
     padding: 25px !important;
     border-radius: 12px !important;
     border: 2px solid #0099b5 !important;
-    box-shadow: 0 6px 20px rgba(0, 153, 181, 0.15) !important;
+    box-shadow: 
+        0 6px 20px rgba(0, 153, 181, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6) !important;
     margin-bottom: 20px !important;
     position: relative;
 }
@@ -77,7 +127,8 @@ div[data-testid="stHorizontalBlock"] > div {
 
 /* File uploader styling */
 .stFileUploader > div {
-    background: linear-gradient(135deg, #f8fdff 0%, #f0fff5 100%) !important;
+    background: linear-gradient(135deg, rgba(248, 253, 255, 0.9), rgba(240, 255, 245, 0.9)) !important;
+    backdrop-filter: blur(5px) !important;
     border: 3px dashed #0099b5 !important;
     border-radius: 15px !important;
     padding: 40px !important;
@@ -86,7 +137,9 @@ div[data-testid="stHorizontalBlock"] > div {
 
 .stFileUploader > div:hover {
     border: 3px dashed #ce1126 !important;
-    background: linear-gradient(135deg, #e6f7ff 0%, #e8f5e8 100%) !important;
+    background: linear-gradient(135deg, rgba(230, 247, 255, 0.95), rgba(232, 245, 232, 0.95)) !important;
+    transform: translateY(-2px) !important;
+    transition: all 0.3s ease !important;
 }
 
 /* Success message */
@@ -97,6 +150,7 @@ div[data-testid="stHorizontalBlock"] > div {
     border-radius: 10px !important;
     padding: 20px !important;
     text-align: center !important;
+    box-shadow: 0 4px 15px rgba(30, 142, 62, 0.3) !important;
 }
 
 /* ----------------------------- */
@@ -105,7 +159,8 @@ div[data-testid="stHorizontalBlock"] > div {
 
 /* Metric cards with flag colors */
 [data-testid="metric-container"] {
-    background: linear-gradient(135deg, #ffffff 0%, #f8fdff 100%) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(248, 253, 255, 0.9)) !important;
+    backdrop-filter: blur(6px) !important;
     padding: 25px !important;
     border-radius: 12px !important;
     border: 2px solid #0099b5 !important;
@@ -123,6 +178,7 @@ div[data-testid="stHorizontalBlock"] > div {
     font-size: 32px !important;
     font-weight: 800 !important;
     color: #0099b5 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* ----------------------------- */
@@ -139,6 +195,7 @@ div[data-testid="stHorizontalBlock"] > div {
     font-weight: 600 !important;
     transition: all 0.3s ease !important;
     width: 100% !important;
+    box-shadow: 0 4px 12px rgba(0, 153, 181, 0.3) !important;
 }
 
 .stButton > button:hover {
