@@ -17,6 +17,8 @@ if "mapping" not in st.session_state:
 mapping = st.session_state["mapping"]
 df = st.session_state["raw_df"].copy()
 
+st.markdown('<div class="dashboard-page-pattern">', unsafe_allow_html=True)
+
 df["Revenue"] = df[mapping["qty"]] * df[mapping["price"]]
 
 # Metrics
