@@ -84,3 +84,11 @@ st.markdown('<div class="about-page-pattern">', unsafe_allow_html=True)
 
 # Run page (for Streamlit multipage apps)
 load_about_page()
+
+def load_page():
+    # Your existing page code here
+    pass
+
+# This allows the page to run both standalone and as module
+if __name__ == "__main__":
+    load_page()
