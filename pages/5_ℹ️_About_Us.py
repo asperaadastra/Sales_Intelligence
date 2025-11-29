@@ -30,7 +30,7 @@ def load_about_page():
 
     with col1:
         st.image("IMG_9515.JPG", caption="Mirzaakbar Siddikov")
-        st.write("• ISE Student")
+        st.write("• ibt Student")
 
     with col2:
         st.image("photo_2025-11-24 11.53.50 PM.jpeg", caption="Ruziev Ratmir")
