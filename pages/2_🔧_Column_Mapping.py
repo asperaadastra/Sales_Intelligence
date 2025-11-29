@@ -15,6 +15,8 @@ if "raw_df" not in st.session_state:
 
 df = st.session_state["raw_df"]
 
+st.markdown('<div class="mapping-page-pattern">', unsafe_allow_html=True)
+
 columns = df.columns.tolist()
 
 st.write("Match your CSV columns to app fields:")
