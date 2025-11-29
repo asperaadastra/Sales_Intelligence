@@ -2,6 +2,43 @@
 /* GLOBAL LAYOUT & BACKGROUND    */
 /* ----------------------------- */
 
+/* ----------------------------- */
+/* BACKGROUND IMAGES FOR PAGES   */
+/* ----------------------------- */
+
+/* PAGE 1: Upload Sales Data - Ark of Bukhara */
+body[data-testid="stAppViewContainer"]:has([data-testid="stHeader"]) {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.90)),
+        url('ark_bukhara-e1690445501430.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
+
+/* PAGE 2: Column Mapping - Uzbekistan Landscape */
+body[data-testid="stAppViewContainer"]:has([data-testid="stHeader"]) {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.90)),
+        url('uzbekistan.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
+
+/* PAGE 3: Sales Dashboard - Registan Square */
+body[data-testid="stAppViewContainer"]:has([data-testid="stHeader"]) {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.90)),
+        url('evening-lights-at-the-registan-square-in-samarkand-the-most-famous-landmark-of-uzbekistan-1170x600.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
+
 body, .stApp {
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 50%, #f0fff0 100%) !important;
     font-family: "Inter", "Arial", sans-serif !important;
