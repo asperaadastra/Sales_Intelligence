@@ -17,7 +17,7 @@ except:
     # If image fails to load, show a placeholder
     st.markdown("""
     <div style="background: #e67e22; color: white; padding: 60px; text-align: center; border-radius: 15px;">
-        <h2>🏪 Makro Supermarket</h2>
+        <h1>🏪 Makro Supermarket</h1>
         <p style="font-size: 20px;">Salamy-Teeki - Central Asian Groceries</p>
         <p>📍 Image: Makro Supermarket in Uzbekistan</p>
     </div>
