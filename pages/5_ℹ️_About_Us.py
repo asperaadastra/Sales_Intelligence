@@ -80,5 +80,7 @@ def load_about_page():
 
     st.success("Feel free to contact us anytime — we're here to help your business grow!")
 
+st.markdown('<div class="about-page-pattern">', unsafe_allow_html=True)
+
 # Run page (for Streamlit multipage apps)
 load_about_page()
