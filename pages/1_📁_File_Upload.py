@@ -33,6 +33,8 @@ def set_background_image(image_path):
         unsafe_allow_html=True
     )
 
+st.markdown('<div class="upload-page-pattern">', unsafe_allow_html=True)
+
 # Set background for this page
 set_background_image("ark_bukhara-e1690445501430.jpg")
 
