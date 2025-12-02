@@ -4,12 +4,12 @@ import pandas as pd
 import streamlit as st
 from openai import OpenAI
 
-api_key = "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"
+#api_key = "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"
 #if not api_key:
  #   st.error("OPENAI_API_KEY is not defined in the environment variables.")
   #  raise RuntimeError("Missing OPENAI_API_KEY")
 
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key=os.getenv("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"))
 
 
 def _build_data_context(data: pd.DataFrame, max_rows: int = 80) -> str:
